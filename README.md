@@ -6,26 +6,26 @@ A comprehensive cryptocurrency price analysis and forecasting web application bu
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## 🌟 Features
+## Features
 
-### 📈 Interactive Data Visualization
+### Interactive Data Visualization
 - **Candlestick Charts**: Professional-grade price action visualization with OHLC (Open, High, Low, Close) data
 - **Moving Averages**: 50-day and 200-day moving averages for trend analysis
 - **Interactive Plotly Charts**: Zoom, pan, and hover for detailed data exploration
 
-### 🤖 Price Forecasting
+### Price Forecasting
 - **Linear Regression Model**: Machine learning-based price prediction
 - **Customizable Forecast Period**: Predict prices from 1 to 365 days into the future
 - **Trend Analysis**: Automatic detection of upward/downward trends with daily price change metrics
 
-### ℹ️ Model Evaluation
+### Model Evaluation
 - **Performance Metrics**: 
   - Mean Absolute Error (MAE)
   - Mean Squared Error (MSE)
   - Root Mean Squared Error (RMSE)
 - **Visual Comparison**: Actual vs Predicted price charts for model validation
 
-### 💎 Supported Cryptocurrencies
+### Supported Cryptocurrencies
 - Bitcoin (BTC-USD)
 - Ethereum (ETH-USD)
 - Solana (SOL-USD)
@@ -33,7 +33,7 @@ A comprehensive cryptocurrency price analysis and forecasting web application bu
 - Shiba Inu (SHIB-USD)
 - Cardano (ADA-USD)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -60,7 +60,7 @@ streamlit run crypto.py
 4. **Open your browser**
 The app will automatically open at `http://localhost:8501`
 
-## 📊 How to Use
+## How to Use
 
 1. **Select Cryptocurrency**: Choose from the dropdown in the sidebar
 2. **Set Date Range**: Pick your desired start and end dates for historical data
@@ -70,7 +70,7 @@ The app will automatically open at `http://localhost:8501`
    - **Tab 2 - Forecasting**: See price predictions and trend information
    - **Tab 3 - Model Evaluation**: Review model performance metrics
 
-## 🛠️ Technical Stack
+## Tech Stack
 
 - **Frontend**: Streamlit
 - **Data Source**: yfinance (Yahoo Finance API)
@@ -78,7 +78,7 @@ The app will automatically open at `http://localhost:8501`
 - **Visualization**: Plotly
 - **Machine Learning**: Scikit-learn (Linear Regression)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 crypto-price-predictor/
@@ -88,7 +88,7 @@ crypto-price-predictor/
 └── README.md             # Project documentation
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Customizing Date Range
 Default settings in the sidebar:
@@ -102,7 +102,7 @@ Edit the `cryptos` tuple in `crypto.py`:
 cryptos = ('BTC-USD', 'ETH-USD', 'YOUR-CRYPTO-USD')
 ```
 
-## 📈 Machine Learning Model
+## Machine Learning Model
 
 The application uses **Linear Regression** for time series forecasting:
 
@@ -141,7 +141,7 @@ pip install -r requirements.txt
 streamlit run crypto.py
 ```
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -155,18 +155,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Always do your own research and consult with financial advisors
 - The developers are not responsible for any financial losses
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [yfinance](https://github.com/ranaroussi/yfinance) - For providing free financial data
 - [Streamlit](https://streamlit.io/) - For the amazing web framework
 - [Plotly](https://plotly.com/) - For interactive visualization capabilities
 
-## 📧 Contact
+## Contact
 
 For questions, suggestions, or feedback, please open an issue on GitHub.
 
 ---
-
-**Built with ❤️ using Python and Streamlit**
 
 *Star ⭐ this repo if you find it helpful!*
