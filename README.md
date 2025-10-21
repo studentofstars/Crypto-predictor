@@ -1,4 +1,5 @@
 # 🪙 Crypto Price Predictor
+# Find the app live on: https://crypto-currency-price-predictor.streamlit.app/
 
 A comprehensive cryptocurrency price analysis and forecasting web application built with Streamlit, yfinance, and Machine Learning.
 
