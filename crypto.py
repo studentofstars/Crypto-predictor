@@ -76,7 +76,7 @@ if data is not None:
     # -----------------
     
     # Create tabs
-    tab1, tab2, tab3 = st.tabs(["📈 Exploratory Data Analysis", "🤖 Forecasting with Linear Regression", "ℹ️ Model Evaluation"])
+    tab1, tab2, tab3 = st.tabs(["Exploratory Data Analysis", "Forecasting with Linear Regression", "Model Evaluation"])
 
     # -----------------
     # Tab 1: EDA
